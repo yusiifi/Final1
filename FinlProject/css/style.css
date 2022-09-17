@@ -1,0 +1,523 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.ford-mustang .left-ford h1 {
+  color: #363636;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0px;
+}
+.ford-mustang .left-ford p {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+.ford-mustang .right-ford .prices .old {
+  text-decoration: line-through;
+  color: #999999;
+  font-size: 17px;
+  margin-right: 5px;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.ford-mustang .right-ford .prices .new {
+  color: #db2d2e;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.ford-mustang .right-ford .tax-label {
+  margin-left: 130px;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 0px;
+  color: #999999;
+}
+
+@media (max-width: 767px) {
+  .ford-mustang .left-ford {
+    width: 100%;
+  }
+}
+.button-parts .choices-ford li {
+  list-style: none;
+  margin-right: 6px;
+  margin-bottom: 10px;
+}
+.button-parts .choices-ford li a {
+  text-decoration: none;
+  border: 2px solid #e8e8e8;
+  background: transparent;
+  padding: 8px 15px;
+  display: inline-block;
+  color: #999999;
+  font-size: 15px;
+}
+.button-parts .choices-ford li a:hover {
+  background-color: #db2d2e;
+  color: #fff;
+  border: 2px solid #db2d2e;
+  transition: all 0.5s ease-in-out 0s;
+}
+.button-parts .video-attach {
+  background-color: #fcfcfc;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
+}
+.button-parts .video-attach .vehicle .left-vehicle {
+  float: left;
+  padding-left: 0%;
+  align-items: center;
+}
+.button-parts .video-attach .vehicle .left-vehicle li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+.button-parts .video-attach .vehicle .left-vehicle li:hover a i {
+  background: #000000;
+  transition: all 0.5s ease-in-out;
+}
+.button-parts .video-attach .vehicle .left-vehicle li a {
+  padding: 5px 10px;
+  background: #fcfcfc;
+  color: #363636;
+  text-decoration: none;
+  font-size: 16px;
+}
+.button-parts .video-attach .vehicle .left-vehicle li a i {
+  color: #fff;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  background: #db2d2e;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 100px;
+}
+.button-parts .video-attach .vehicle .right-vehicle {
+  float: right;
+  padding-right: 0%;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+.button-parts .video-attach .vehicle .right-vehicle p {
+  position: relative;
+  right: -25px;
+  top: 5px;
+  opacity: 1;
+  bottom: 0;
+  z-index: 1;
+  display: table-cell;
+}
+.button-parts .video-attach .vehicle .right-vehicle .social-media li {
+  padding-top: 2px;
+  padding-left: 5px;
+  list-style: none;
+}
+.button-parts .video-attach .vehicle .right-vehicle .social-media li a {
+  width: 30px;
+  height: 30px;
+  background: #db2d2e;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 12px;
+}
+.button-parts .video-attach .vehicle .right-vehicle .social-media li a i {
+  color: #fcfcfc;
+}
+.button-parts .video-attach .vehicle .right-vehicle .social-media li a:hover {
+  background: #000000;
+  transition: all 0.5s ease-in-out;
+}
+
+.car-description .carphoto-part {
+  width: 70%;
+}
+.car-description .carphoto-part .mainphoto img {
+  width: 95%;
+}
+.car-description .carphoto-part .otherphotos img {
+  width: 19%;
+}
+.car-description .cardescription-part {
+  width: 30%;
+}
+.car-description .cardescription-part h6 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+.car-description .cardescription-part ::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0px;
+  bottom: 0px;
+}
+.car-description .cardescription-part .car-settings {
+  position: relative;
+  padding-left: 0px;
+}
+.car-description .cardescription-part .car-settings li {
+  list-style: unset;
+  display: flex;
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 3.7px;
+  margin-bottom: 3.7px;
+}
+.car-description .cardescription-part .car-settings li span {
+  width: 150px;
+  display: table-cell;
+  color: #999999;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+
+@media (max-width: 576px) {
+  .car-description .carphoto-part {
+    width: 100%;
+  }
+  .car-description .cardescription-part {
+    width: 100%;
+  }
+}
+.last-part .information-part {
+  width: 70%;
+}
+.last-part .information-part .choices-parts {
+  position: relative;
+  margin: 0%;
+  padding-left: 0px;
+  border: none;
+}
+.last-part .information-part .choices-parts .tr-tr {
+  padding-left: 0;
+}
+.last-part .information-part .choices-parts .tr-tr li {
+  list-style: none;
+  margin-bottom: 8px;
+  padding: 10px 10px;
+}
+.last-part .information-part .choices-parts .tr-tr li a {
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+}
+.last-part .information-part .choices-parts .tr-tr li a i {
+  padding-right: 5px;
+}
+.last-part .information-part .choices-parts .tr-tr li a:hover {
+  color: #db2d2e;
+  transition: all 0.5s ease-in-out 0s;
+  border-bottom: 3px solid #db2d2e;
+}
+.last-part .information-part .choices-parts .tr-tr-tr {
+  position: relative;
+  padding-left: 0;
+}
+.last-part .information-part .choices-parts .tr-tr-tr li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.last-part .information-part .choices-parts .tr-tr-tr li a {
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  padding: 10px 10px;
+}
+.last-part .information-part .choices-parts .tr-tr-tr li a i {
+  padding-right: 5px;
+}
+.last-part .information-part .choices-parts .tr-tr-tr li a:hover {
+  color: #db2d2e;
+  transition: all 0.5s ease-in-out 0s;
+  border-bottom: 3px solid #db2d2e;
+}
+.last-part .information-part .paragraph-part {
+  width: 96%;
+  margin-bottom: 50px;
+}
+.last-part .information-part .paragraph-part p {
+  color: #999999;
+  margin: 0 0 10px;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+.last-part .information-part .related-parts {
+  width: 97%;
+}
+.last-part .information-part .related-parts h6 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+.last-part .information-part .related-parts .car-photoparts {
+  justify-content: space-around;
+  float: left;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car {
+  border: 1px solid #dddddd;
+  min-height: 286.234px;
+  width: 30%;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-image {
+  position: relative;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-image img {
+  width: 100%;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-image span {
+  position: absolute;
+  background-color: #10bf9c;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  top: 8px;
+  background: #10BF9C;
+  font-size: 11px !important;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 8px 10px;
+  z-index: 5;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-image .lastspan-car {
+  background-color: #db2d2e;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-info {
+  padding: 20px;
+  text-align: center;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-info a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #db2d2e;
+  margin-bottom: 10px;
+  display: block;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-info .car-seperator:before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 30px;
+  bottom: -10px;
+  background: #000000;
+  margin-bottom: 4px;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-info .car-seperator:after {
+  width: 50px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #000000;
+  bottom: 0px;
+  left: 50%;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-info .price-car {
+  margin-top: 10px;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-info .price-car .old-pricess {
+  text-decoration: line-through;
+  padding-right: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+}
+.last-part .information-part .related-parts .car-photoparts .first-car .car-info .price-car .new-pricess {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #363636;
+}
+.last-part .fuel-efficiencypart {
+  width: 30%;
+}
+.last-part .fuel-efficiencypart h6 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.last-part .fuel-efficiencypart .fuelsep:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+.last-part .fuel-efficiencypart .fuelrating-part {
+  border: none;
+  background: #db2d2e;
+  color: #ffffff;
+  padding: 25px 15px;
+  text-align: center;
+  display: inline-block;
+  height: auto;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.last-part .fuel-efficiencypart .fuelrating-part .heading-rating h6 {
+  text-transform: none;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+.last-part .fuel-efficiencypart .fuelrating-part .row-rating .col-xs-4 {
+  width: 33.3%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.last-part .fuel-efficiencypart .fuelrating-part .row-rating .col-xs-4 label {
+  color: #ffffff;
+  font-weight: 600;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+.last-part .fuel-efficiencypart .fuelrating-part .row-rating .col-xs-4 span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.last-part .fuel-efficiencypart .fuelrating-part .row-rating .col-xs-4 i {
+  font-size: 30px;
+  margin-top: 22px;
+}
+.last-part .fuel-efficiencypart .fuelrating-part p {
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 16px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.last-part .fuel-efficiencypart .calculator-part {
+  margin-top: 37px;
+}
+.last-part .fuel-efficiencypart .calculator-part h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.last-part .fuel-efficiencypart .calculator-part .calculator-input .first-call {
+  margin-bottom: 15px;
+}
+.last-part .fuel-efficiencypart .calculator-part .calculator-input .first-call label {
+  color: #999999;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.last-part .fuel-efficiencypart .calculator-part .calculator-input .first-call input {
+  width: 100%;
+  resize: vertical;
+  background: #f6f6f6;
+  border-radius: 0;
+  box-shadow: none;
+  height: 42px;
+  line-height: 1.33333;
+  padding: 12px 18px;
+  background: transparent;
+  color: #626262;
+  border: 1px solid #e3e3e3;
+  background-color: #e3e3e3;
+  outline: none;
+}
+.last-part .fuel-efficiencypart .calculator-part .calculator-input .first-call .buttons-call {
+  padding-left: 0%;
+}
+.last-part .fuel-efficiencypart .calculator-part .calculator-input .first-call .buttons-call li {
+  list-style: none;
+}
+.last-part .fuel-efficiencypart .calculator-part .calculator-input .first-call .buttons-call li a {
+  color: #ddd;
+  text-decoration: none;
+  background-color: #db2d2e;
+  margin-right: 5px;
+  padding: 10px 12px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  border: 0px solid transparent;
+  background: #db2d2e;
+  color: #ffffff;
+  text-transform: capitalize;
+  vertical-align: middle;
+  padding: 10px 20px;
+  overflow: hidden;
+  margin-left: 0%;
+  font-size: 14px;
+  text-align: center;
+  border: 0px solid transparent;
+  background: #db2d2e;
+  color: #ffffff;
+  display: inline-block;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+@media (max-width: 576px) {
+  .last-part .fuel-efficiencypart .fuelrating-part {
+    padding: 25px 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
